@@ -3,8 +3,6 @@ __author__ = 'Adam C'
 import time
 import sys
 
-
-
 def displayIntro():
     print "The time is " +time.strftime("%H" ":" "%M%p")
     #time.sleep(3)
@@ -31,7 +29,7 @@ def playername():
     playername = str(raw_input())
     print ("It is nice to meet you " + playername)
     #time.sleep(4)
-
+    return playername
 
 def leavehome():
     leavehome = (" ")
@@ -45,8 +43,8 @@ def outsideofhome():
     print "You step outside of your home, you see the similar dirt road off of your property."
     #time.sleep(2)
     print
-    print ("Your task, " + playername) ,
-    print " is to save the kings daughter"
+    print ("Your task, {} " + playername) ,
+    print " is to save the king"
     return outsideofhome
 
 
@@ -58,3 +56,11 @@ hometown()
 playername()
 leavehome()
 outsideofhome()
+
+"""
+print "Welcome to the world of no idea"
+print "You are on a journey of acid"
+print "Tell me your name!"
+name = raw_input()
+print ("Okay, " +name),
+"""
