@@ -45,9 +45,14 @@ def outsideofhome():
     print ("You step outside of your home, you see the similar dirt road off of your property.")
     #time.sleep(2)
     print
+<<<<<<< HEAD
     print ("Your task" + playername )
     print ("is to save the kings daughter")
     return outsideofhome
+=======
+    print ("Your task" +playername)
+    print ("is to save the kings Daughter")
+>>>>>>> FETCH_HEAD
 
 
 
