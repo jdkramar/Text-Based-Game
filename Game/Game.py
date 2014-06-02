@@ -8,8 +8,8 @@ import sys
 def displayIntro():
     print "The time is " +time.strftime("%H" ":" "%M%p")
     #time.sleep(3)
-    print "You wake up in your small one room home,",
-    print "You have no memory of what took place earlier in your life."
+    print "You wake up in your small one room home, "\
+    "You have no memory of what took place earlier in your life."
     #time.sleep(3)
     print "You hear a booming voice coming from every direction"
     #time.sleep(3)
@@ -28,8 +28,8 @@ def hometown():
 def playername():
     playername = (" ")
     print ("I almost forgot, what is your name?")
-    playername = raw_input()
-    print ("It is nice to meet you " +playername)
+    playername = str(raw_input())
+    print ("It is nice to meet you " + playername)
     #time.sleep(4)
 
 
@@ -42,11 +42,11 @@ def leavehome():
 
 def outsideofhome():
     #time.sleep(5)
-    print ("You step outside of your home, you see the similar dirt road off of your property.")
+    print "You step outside of your home, you see the similar dirt road off of your property."
     #time.sleep(2)
     print
-    print ("Your task" + playername )
-    print ("is to save the kings daughter")
+    print ("Your task, " + playername) ,
+    print " is to save the kings daughter"
     return outsideofhome
 
 
