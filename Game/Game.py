@@ -47,7 +47,7 @@ def OutsideofHome(playername):
     time.sleep(2)
     print
     print ("Your task" +playername)
-    print ("is to save the kings balls")
+    print ("is to save the kings Daughter")
 
 
 
