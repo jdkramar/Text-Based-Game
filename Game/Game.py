@@ -1,4 +1,4 @@
-__author__ = 'Adam'
+__author__ = 'Adam C'
 
 import time
 import sys
