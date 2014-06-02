@@ -40,7 +40,7 @@ def leavehome():
         leavehome = raw_input()
         return leavehome
 
-def OutsideofHome():
+def OutsideofHome(playername):
     playername = playername()
     time.sleep(5)
     print ("You step outside of your home, you see the similar dirt road off of your property.")
