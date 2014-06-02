@@ -3,6 +3,10 @@ __author__ = 'Adam C'
 import time
 import sys
 
+hometown = (" ")    #default hometown
+playername = (" ")  #default playername
+leavehome = (" ")   #default leavehome
+
 def displayIntro():
     print "The time is " +time.strftime("%H" ":" "%M%p")
     #time.sleep(3)
@@ -15,28 +19,28 @@ def displayIntro():
     #time.sleep(4)
 
 def hometown():
-    hometown = (" ")
+    global hometown
     print "From where do you hale?"
     hometown = raw_input()
     #time.sleep(3)
     print ("I see, you are from " +hometown)
     #time.sleep(5)
-    return hometown
+    #return hometown
 
 def playername():
-    playername = (" ")
+    global playername
     print ("I almost forgot, what is your name?")
     playername = str(raw_input())
     print ("It is nice to meet you " + playername)
     #time.sleep(4)
-    return playername
+    #return playername
 
 def leavehome():
-    leavehome = (" ")
+    global leavehome
     while leavehome != "yes" and leavehome != "y":
         print ("Are you ready to leave your home?")
         leavehome = raw_input()
-        return leavehome
+        #return leavehome
 
 def outsideofhome():
     #time.sleep(5)
